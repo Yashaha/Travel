@@ -1,10 +1,10 @@
 <template>
   <div class="header">
   	<div class="header-left">
-  		<div class="iconfont back-icon">&#xe624;</div>
+  		<div class="iconfont">&#xe624;</div>
   	</div>
   	<div class="header-input"><span class="iconfont">&#xe632;</span>输入城市/景点/游玩主题</div>
-  	<div class="header-right">城市<span class="iconfont arrow-icon">&#xe608;</span></div>
+  	<div class="header-right">城市<span class="iconfont">&#xe608;</span></div>
   </div>
 </template>
 
