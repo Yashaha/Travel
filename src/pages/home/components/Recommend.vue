@@ -17,40 +17,8 @@
 <script>
 export default {
 	name: 'HomeRecommend',
-	data () {
-		return {
-			recommendList: [{
-				id: '0001',
-				imgUrl: 'http://img1.qunarzz.com/sight/p0/1603/3b/3bd311262ee06d8c90.img.jpg_200x200_c118d7da.jpg',
-				title: '广州长隆旅游度假区',
-				desc: '10086条评论'
-			}, {
-				id: '0002',
-				imgUrl: 'http://img1.qunarzz.com/sight/p0/1603/3b/3bd311262ee06d8c90.img.jpg_200x200_c118d7da.jpg',
-				title: '广州长隆旅游度假区',
-				desc: '10086条评论'
-			}, {
-				id: '0003',
-				imgUrl: 'http://img1.qunarzz.com/sight/p0/1603/3b/3bd311262ee06d8c90.img.jpg_200x200_c118d7da.jpg',
-				title: '广州长隆旅游度假区',
-				desc: '10086条评论'
-			}, {
-				id: '0004',
-				imgUrl: 'http://img1.qunarzz.com/sight/p0/1603/3b/3bd311262ee06d8c90.img.jpg_200x200_c118d7da.jpg',
-				title: '广州长隆旅游度假区',
-				desc: '10086条评论'
-			}, {
-				id: '0005',
-				imgUrl: 'http://img1.qunarzz.com/sight/p0/1603/3b/3bd311262ee06d8c90.img.jpg_200x200_c118d7da.jpg',
-				title: '广州长隆旅游度假区',
-				desc: '10086条评论'
-			}, {
-				id: '0006',
-				imgUrl: 'http://img1.qunarzz.com/sight/p0/1603/3b/3bd311262ee06d8c90.img.jpg_200x200_c118d7da.jpg',
-				title: '广州长隆旅游度假区',
-				desc: '10086条评论'
-			}]
-		}
+	props: {
+		recommendList: Array
 	}
 }
 </script>
