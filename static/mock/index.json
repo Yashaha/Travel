@@ -1,7 +1,6 @@
 {
 	"ret" : "ture",
 	"data" : {
-		"city" : "北京",
 		"swiperList" : [{
         	"id": "0001",
         	"imgUrl": "http://img1.qunarzz.com/piao/fusion/1805/3b/ef86879aa50e3002.jpg_750x200_2a108508.jpg"
